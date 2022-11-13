@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityFrameworkProject.Entity
+namespace CodeFirst.Entities
 {
     public class Project
     {
         public int ProjectId { get; set; }
+        public List<EmployeeProject> EmployeeProjects { get; set; } = new List<EmployeeProject>();
 
-        public string? Name { get; set; }
+        public string Name { get; set; } = String.Empty;
         public decimal Budget { get; set; }
         public DateTime StartedDate { get; set; }
     }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityFrameworcProject.Entity.Configs
+namespace CodeFirst.Entities
 {
-    public class TitleConfiguration
+    public class ProjectConfig
     {
     }
 }
