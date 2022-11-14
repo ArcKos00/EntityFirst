@@ -8,14 +8,14 @@ namespace CodeFirst.Entities
 {
     public class EmployeeProject
     {
-        public int EmployeesProjectId { get; set; }
+        public int EmployeeProjectId { get; set; }
         public decimal Rate { get; set; }
         public DateTime StartedDate { get; set; }
 
         public int EmployeeId { get; set; }
-        public List<Employee> Employees { get; set; } = new List<Employee>();
+        public Employee? Employees { get; set; }
 
         public int ProjectId { get; set; }
-        public List<Project> Projects { get; set; } = new List<Project>();
+        public Project? Projects { get; set; }
     }
 }

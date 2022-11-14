@@ -11,8 +11,10 @@ namespace CodeFirst.Entities
         public int ProjectId { get; set; }
         public List<EmployeeProject> EmployeeProjects { get; set; } = new List<EmployeeProject>();
 
-        public string Name { get; set; } = String.Empty;
+        public string? Name { get; set; }
+
         public decimal Budget { get; set; }
+
         public DateTime StartedDate { get; set; }
     }
 }

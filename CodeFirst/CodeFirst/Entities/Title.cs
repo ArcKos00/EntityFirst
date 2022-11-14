@@ -8,9 +8,9 @@ namespace CodeFirst.Entities
 {
     public class Title
     {
-        public int TittleId { get; set; }
+        public int TitleId { get; set; }
         public List<Employee> Employees { get; set; } = new List<Employee>();
 
-        public string Name { get; set; } = String.Empty;
+        public string? Name { get; set; }
     }
 }

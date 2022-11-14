@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-BIOMR53\\MSSQLSERVER01;Database=Companykk;IntegratedSecurity=True"
+  }
+}
