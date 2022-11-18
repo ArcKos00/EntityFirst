@@ -18,5 +18,3 @@ var options = optionsBuilder
 using (var ac = new ApplicationContext(options))
 {
 }
-
-Console.Read();

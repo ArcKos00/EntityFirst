@@ -1,5 +1,5 @@
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=DESKTOP-BIOMR53\\MSSQLSERVER01;Database=Companykk;IntegratedSecurity=True"
+    "DefaultConnection": "Server=localhost,1434;Database=Companykk;User Id=sa;Password=1My_password;TrustServerCertificate=True"
   }
 }
